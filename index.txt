@@ -1,0 +1,11 @@
+You are given an array of integers coins representing coin denominations.
+You have an infinite number of coins of each denomination.
+
+You may form a number by choosing any non-negative number of coins
+from the given denominations and summing their values.
+
+Each obtainable sum is counted only once, even if it can be formed
+in multiple ways.
+
+Return the k-th smallest positive integer that can be obtained.
+
