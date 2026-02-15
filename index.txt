@@ -9,3 +9,34 @@ in multiple ways.
 
 Return the k-th smallest positive integer that can be obtained.
 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+You arrive in a city with n sights, labeled 0..n-1. Sight 0 is your hotel.
+Each sight i has a beauty value beauty[i].
+
+There are m bidirectional roads. Road k connects u[k] and v[k] and takes t[k] minutes to travel.
+You may travel along roads multiple times.
+
+You have at most max_t minutes total travel time. You must start at sight 0 and finish at sight 0.
+
+When you visit a sight, you collect its beauty value only the FIRST time you visit that sight
+(revisits do not add extra beauty).
+
+Task:
+Determine the maximum total beauty you can collect within max_t minutes while starting and ending at 0.
+
+Input format (typical):
+n m max_t
+beauty[0] beauty[1] ... beauty[n-1]
+then m lines:
+u v t
+
+Output:
+A single integer: the maximum total beauty achievable.
+
+Notes:
+- Roads are undirected (bidirectional).
+- Total time is the sum of travel times of all roads used in your route.
+- Beauty is counted once per distinct sight visited.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
